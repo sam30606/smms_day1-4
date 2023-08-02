@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    image: sam/smms_day1-4
+    container_name: smms_day1-4
+    ports:
+      - '4000:3000'

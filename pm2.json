@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name": "smms_day1-4",
+            "script": "./dist/main.js",
+            "instances": 4,
+            "exec_mode": "cluster"
+        }
+    ]
+}
